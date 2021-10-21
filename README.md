@@ -1,4 +1,4 @@
-## Project: Previous Express App
+## Project: Daily Affirmations App
 
 This project was to add Express.js to our previous application. 
 
