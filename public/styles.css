@@ -1,0 +1,83 @@
+body{
+  background-image: url("Wallpaper.png"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:670px;
+} 
+
+
+li{
+  width: 200px;
+  height: 100px;
+  float: left;
+  border: 2px solid rgb(255, 214, 229);
+  border-radius: 15px;
+  margin-left: 1%;
+  margin-top: 1%;
+  list-style: none;
+  padding: 20px;
+  font-size: 18px;
+  background: rgba(255,244,238,0.50);
+  box-shadow: 5px 5px 4px black;
+}
+
+li:hover{
+  box-shadow: 0 12px 16px 0 rgba(255,176,201,0.24), 0 17px 50px 0 rgba(255,176,201,0.19);
+}
+
+#quote{
+  text-align: center;
+  padding-top: 8%;
+}
+
+#quote2{
+  height: 30px;
+  width: 200px;
+  background-color: rgb(255, 214, 229);
+  border-color: black;
+  color: black;
+}
+
+#button{
+  height: 35px;
+  width: 30px;
+  background-color: rgb(255, 214, 229);
+  border-color: black;
+}
+
+#search2::placeholder{
+  color: white;
+}
+
+#search{
+  text-align: center;
+  padding-top: 2%;
+}
+
+#search2{
+  height: 30px;
+  width: 200px;
+  background-color: rgb(173, 136, 196);
+  border-color: black;
+  color: white;
+}
+
+#button2{
+  height: 35px;
+  width: 60px;
+  background-color: rgb(173, 136, 196);
+  border-color: black;
+  color: white;
+}
+
+span{
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa, #heart{
+  float: right;
+  padding-right: 3%;
+  margin-top: 20%;
+}
